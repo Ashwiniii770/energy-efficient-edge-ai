@@ -1,33 +1,20 @@
 # Energy-Efficient Deep Learning on Edge Devices
 
-This project demonstrates how deep learning models can be optimized for deployment on edge devices such as smartphones, IoT sensors, and embedded systems.
+Achieved **4x model size reduction with less than 1% accuracy drop** using 
+INT8/FP16 quantization and TensorFlow Lite for real-world edge deployment.
 
-## Overview
+## Key Results
+- 4x model size reduction via INT8/FP16 post-training quantization
+- Less than 1% accuracy drop after full compression pipeline
+- Real-time on-device inference without cloud dependency
 
-Edge devices have limited computational power, memory, and battery capacity. This project explores techniques to make deep learning models more efficient while maintaining performance.
+## Techniques Used
+- Post-training quantization (INT8 and FP16)
+- TensorFlow Lite (.tflite) model export
+- Accuracy vs. latency benchmarking across compression levels
 
-## Key Concepts
+## Technologies
+Python | TensorFlow | TensorFlow Lite | Quantization | Google Colab
 
-- Model compression
-- Quantization
-- Efficient neural network architectures
-- Reduced power consumption
-- Faster inference on edge hardware
-
-## Technologies Used
-
-- Python
-- TensorFlow / PyTorch
-- Edge AI optimization techniques
-
-## Applications
-
-Energy-efficient deep learning on edge devices is used in:
-
-- Smart surveillance systems
-- Autonomous vehicles
-- Healthcare monitoring devices
-- Smart home assistants
-- Industrial IoT systems
-
-## File Structure
+## How to Run
+Open the notebook in Google Colab, change runtime to T4 GPU, and run all cells.
