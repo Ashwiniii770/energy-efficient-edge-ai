@@ -1,6 +1,6 @@
 # Energy-Efficient Deep Learning on Edge Devices
  
-Achieved **4x model size reduction with less than 1% accuracy drop** using 
+Achieved **4x model size reduction with less than 1% accuracy drop** using  
 INT8/FP16 quantization and TensorFlow Lite for real-world edge deployment.
 
 ## Key Results
